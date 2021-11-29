@@ -1,0 +1,53 @@
+#hero {
+    margin-bottom: -241px;
+}
+
+#hero + section {
+    background-color: #fff;
+    padding-top: 241px;
+
+}
+
+@media (max-width: 558px) {
+    #hero {
+        margin-bottom: -100px;
+    }
+    #hero + section {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 559px) and (max-width: 768px) {
+    #hero {
+        margin-bottom: -173px;
+    }
+    #hero + section {
+        padding-top: 173px;
+    }
+}
+
+form .form-control{
+    background: none;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+form .form-control:focus {
+    background: none;
+    border-bottom-color: aqua;
+    box-shadow: none;
+}
+
+form .btn {
+    border: 1px solid white;
+    background: none;
+    color: white;
+    border-radius: 0;
+}
+
+form .btn:hover {
+    background: white;
+    color: #343a40;
+}
