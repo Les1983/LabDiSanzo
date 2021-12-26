@@ -1,18 +1,20 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Laboratorio Dental por _Leslie Sanzo_",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.6.1",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "handlebars": "^4.7.7",
     "hbs": "^4.2.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "keywords": []
 }
